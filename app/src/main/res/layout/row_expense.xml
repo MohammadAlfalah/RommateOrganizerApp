@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/expense_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/expense_freq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequency" />
+
+    <TextView
+        android:id="@+id/expense_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount" />
+
+    <CheckBox
+        android:id="@+id/expense_paid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paid?" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/expense_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/expense_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+    </LinearLayout>
+</LinearLayout>

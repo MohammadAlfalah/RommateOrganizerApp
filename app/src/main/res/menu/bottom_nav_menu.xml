@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NEW: Home first -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_chores"
+        android:icon="@drawable/ic_chores"
+        android:title="Chores"/>
+
+    <item
+        android:id="@+id/nav_expenses"
+        android:icon="@drawable/ic_expenses"
+        android:title="Expenses"/>
+
+    <item
+        android:id="@+id/nav_rules"
+        android:icon="@drawable/ic_rules"
+        android:title="House Rules"/>
+
+
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="Chat"/>
+</menu>

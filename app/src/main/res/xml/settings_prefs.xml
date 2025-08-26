@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Account">
+        <Preference
+            android:key="change_password"
+            android:title="Change Password"
+            android:summary="Update your account password"
+            app:icon="@drawable/ic_settings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="App Settings">
+        <SwitchPreference
+            android:key="notifications"
+            android:title="Enable Notifications"
+            android:summary="Receive reminders for upcoming tasks"
+            android:defaultValue="true" />
+            
+        <SwitchPreference
+            android:key="dark_mode"
+            android:title="Dark Mode"
+            android:summary="Use dark theme"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Data">
+        <Preference
+            android:key="export_data"
+            android:title="Export Data"
+            android:summary="Backup your data to file" />
+            
+        <Preference
+            android:key="clear_data"
+            android:title="Clear All Data"
+            android:summary="Remove all local data (cannot be undone)" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

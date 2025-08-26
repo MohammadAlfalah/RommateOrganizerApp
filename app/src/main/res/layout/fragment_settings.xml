@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/settings_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Display name" />
+
+    <Button
+        android:id="@+id/settings_save_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save name" />
+
+    <Button
+        android:id="@+id/settings_change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change password" />
+
+    <Button
+        android:id="@+id/settings_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+    <TextView
+        android:id="@+id/settings_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>

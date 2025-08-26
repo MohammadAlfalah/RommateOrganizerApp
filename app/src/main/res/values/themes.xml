@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme (Material 3; inherits AppCompat under the hood) -->
+    <style name="Base.Theme.RoommateOrganizer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand colors (adjust to your palette or reuse) -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/backgroundColor</item>
+        <item name="colorOnBackground">@color/textPrimary</item>
+        <item name="colorOnSurface">@color/textPrimary</item>
+
+        <!-- Optional: shape overrides like your working app -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Roommate.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Roommate.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Roommate.Large</item>
+    </style>
+
+    <style name="Theme.RoommateOrganizer" parent="Base.Theme.RoommateOrganizer" />
+
+    <!-- Shapes (optional, match Remindly) -->
+    <style name="ShapeAppearance.Roommate.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="ShapeAppearance.Roommate.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="ShapeAppearance.Roommate.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">4dp</item>
+    </style>
+
+</resources>

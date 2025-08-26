@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Switch
+        android:id="@+id/expense_split_evenly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Split evenly between roommates" />
+
+    <EditText
+        android:id="@+id/expense_participants_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Participants (comma separated UIDs, optional)"
+        android:inputType="text"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/expenses_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_expense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+</LinearLayout>
